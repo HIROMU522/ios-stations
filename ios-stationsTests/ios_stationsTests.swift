@@ -71,7 +71,7 @@ class ios_stationsTests: XCTestCase {
 
         let appUrl = URL(fileURLWithPath: #file).deletingLastPathComponent().deletingLastPathComponent().appendingPathComponent("ios-stations/Assets.xcassets/AppIcon.appiconset/Contents.json")
         let data = try XCTUnwrap(try? Data(contentsOf: appUrl), "アプリアイコンが設定されていません")
-        XCTAssertGreaterThan(data.count, 2900, "全てのアプリアイコンが設定されていません")
+        XCTAssertGreaterThan(data.count, 3000, "全てのアプリアイコンが設定されていません")
     }
     
     func testStation6() throws {
