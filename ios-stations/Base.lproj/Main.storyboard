@@ -14,28 +14,31 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="ios_stations" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40G-GZ-wTa">
-                                <rect key="frame" x="20" y="426" width="374" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zte-Hf-cQh">
+                                <rect key="frame" x="124" y="423" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="PPs-gL-aDB"/>
+                                    <constraint firstAttribute="width" constant="200" id="CJ4-Dr-GA2"/>
+                                    <constraint firstAttribute="height" constant="44" id="XjG-lQ-GFm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Click">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="40G-GZ-wTa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qek-Sz-ZrH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="40G-GZ-wTa" secondAttribute="trailing" constant="20" id="Wd2-7R-BFT"/>
-                            <constraint firstItem="40G-GZ-wTa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZtO-UL-aAB"/>
-                            <constraint firstItem="40G-GZ-wTa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wcP-uJ-n0K"/>
+                            <constraint firstItem="Zte-Hf-cQh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="375" id="Fq1-qr-uIE"/>
+                            <constraint firstItem="Zte-Hf-cQh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="YNp-Qb-6pn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zte-Hf-cQh" secondAttribute="trailing" constant="124" id="Znf-Vn-PkG"/>
+                            <constraint firstItem="Zte-Hf-cQh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cyP-Ae-hcY"/>
                         </constraints>
                     </view>
                 </viewController>
